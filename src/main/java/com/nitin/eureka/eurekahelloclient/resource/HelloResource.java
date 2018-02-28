@@ -15,7 +15,7 @@ public class HelloResource {
 
 	@GetMapping
 	public String hello() {
-		String url = "http://hello-server-eureka-example/rest/hello/server";
+		String url = "http://HELLO-SERVER-EUREKA-EXAMPLE/rest/hello/server";
 		return restTemplate.getForObject(url, String.class);
 
 	}
